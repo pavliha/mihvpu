@@ -1,0 +1,167 @@
+/*
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+*/
+body {
+  background-color: #ececec;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #263238; }
+  body h1 {
+    padding: 0;
+    margin: 0; }
+  body paper-material {
+    background-color: #ECEFF1; }
+  body h2 {
+    color: #DD2C00;
+    font-family: "Roboto Regular", sans-serif; }
+  body a {
+    color: #0277BD;
+    text-decoration: none; }
+  body a:hover {
+    color: #0277BD;
+    text-decoration: underline; }
+
+div {
+  text-align: center;
+  display: block;
+  width: 97%;
+  height: 100%; }
+
+paper-toolbar img {
+  padding-top: 20px;
+  width: 9%; }
+
+paper-material.nav {
+  margin-bottom: 20px; }
+
+paper-material.news {
+  padding: 20px;
+  margin: 1% 10px;
+  width: calc(99.99% * 1/1.5 - (30px - 30px * 1/1.5));
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+paper-material.news:nth-child(n) {
+  float: left;
+  margin-right: 30px;
+  clear: none; }
+
+paper-material.news:last-child {
+  margin-right: 0; }
+
+paper-material.news:nth-child(1.5n) {
+  margin-right: 0; }
+
+paper-material.news:nth-child(1.5n + 1) {
+  clear: left; }
+  paper-material.news img {
+    width: auto;
+    height: auto;
+    padding: 20px; }
+
+.video-section {
+  padding: 50px;
+  background-color: rgba(55, 71, 79, 0.7);
+  width: calc(99.99% * 1/1.083 - (30px - 30px * 1/1.083)); }
+
+.video-section:nth-child(n) {
+  float: left;
+  margin-right: 30px;
+  clear: none; }
+
+.video-section:last-child {
+  margin-right: 0; }
+
+.video-section:nth-child(1.083n) {
+  margin-right: 0; }
+
+.video-section:nth-child(1.083n + 1) {
+  clear: left; }
+
+.contacts-section {
+  padding: 50px;
+  width: calc(99.99% * 1/1.083 - (30px - 30px * 1/1.083)); }
+
+.contacts-section:nth-child(n) {
+  float: left;
+  margin-right: 30px;
+  clear: none; }
+
+.contacts-section:last-child {
+  margin-right: 0; }
+
+.contacts-section:nth-child(1.083n) {
+  margin-right: 0; }
+
+.contacts-section:nth-child(1.083n + 1) {
+  clear: left; }
+
+paper-material.video-gallery {
+  background-color: #FFF;
+  margin: 1% 10px;
+  *zoom: 1;
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+paper-material.video-gallery:before {
+  content: '';
+  display: table; }
+
+paper-material.video-gallery:after {
+  content: '';
+  display: table;
+  clear: both; }
+  paper-material.video-gallery img {
+    width: auto;
+    height: auto;
+    padding: 20px; }
+  paper-material.video-gallery google-youtube {
+    padding: 1%; }
+  paper-material.video-gallery paper-menu {
+    overflow: scroll;
+    height: 300px;
+    padding-left: 6px;
+    width: 100%; }
+    paper-material.video-gallery paper-menu img {
+      width: 50%; }
+
+paper-material.contacts {
+  background-color: #FFF;
+  margin: 1% 10px;
+  *zoom: 1;
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+paper-material.contacts:before {
+  content: '';
+  display: table; }
+
+paper-material.contacts:after {
+  content: '';
+  display: table;
+  clear: both; }
+  paper-material.contacts div {
+    padding-top: 4%; }
+  paper-material.contacts google-map {
+    height: 300px;
+    width: 50%;
+    display: block; }
+
+paper-card {
+  width: 320px;
+  color: red; }
