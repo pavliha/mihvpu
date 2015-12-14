@@ -23,7 +23,7 @@
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="import" href="/elements/elements.html">
+    <link rel="import" href="/elements/vulcanized/elements.html">
     {{--<link rel="import" href="/elements/elements.html">--}}
 
 
