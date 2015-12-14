@@ -43,6 +43,7 @@ Custom property | Description | Default
   <template>
     <style>
       :host {
+
         @apply(--layout-inline);
         @apply(--layout-center);
         @apply(--layout-center-justified);
@@ -91,7 +92,12 @@ Custom property | Description | Default
       }
 
       .tab-content > ::content > a {
-        @apply(--layout-flex)
+        -ms-flex: 1 1 0.000000001px;
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-flex-basis: 0.000000001px;
+        flex-basis: 0.000000001px;
+        @apply(--layout-flex);
 
         height: 100%;
       }

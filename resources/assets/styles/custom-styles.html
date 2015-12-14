@@ -1,14 +1,27 @@
-<html><head><style is="custom-style">
+<!--suppress ALL -->
+<style is="custom-style">
     paper-toolbar{
         --paper-toolbar-background:#2095F1
     }
     paper-tabs{
+        width: 100%;
         --paper-tabs-selection-bar-color: rgba(32, 149, 241, 0.79);
 
     }
     .nav-link {
         color: #263238;
-        @apply(--layout-horizontal);
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
         @apply(--layout-center-center);
     }
 
@@ -29,4 +42,4 @@
         }
     }
 
-</style></head><body></body></html>
+</style>

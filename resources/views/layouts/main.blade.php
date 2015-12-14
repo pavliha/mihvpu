@@ -22,8 +22,13 @@
     <!--Tile icon for Win8 (144x144) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+    <link rel="import" href="/elements/vulcanized/elements.html">
+
+    <link rel="import" href="/styles/custom-styles.html">
+
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="import" href="/elements/elements.html">
+
     {{--<link rel="import" href="/elements/elements.html">--}}
     @yield("head")
 </head>
@@ -42,9 +47,9 @@
         <paper-tab><a href="/news" class="nav-link">Новини</a></paper-tab>
         <paper-tab><a href="/about" class="nav-link">Про училище</a></paper-tab>
         <paper-tab><a href="/applicants" class="nav-link">Абітурієнтам</a></paper-tab>
-        <paper-tab><a href="#" class="nav-link">Фотогалерея</a></paper-tab>
-        <paper-tab><a href="#" class="nav-link">Блоги викладачів</a></paper-tab>
-        <paper-tab><a href="#" class="nav-link">Розклад</a></paper-tab>
+        <paper-tab><a href="/gallery" class="nav-link">Фотогалерея</a></paper-tab>
+        <paper-tab><a href="/blogs" class="nav-link">Блоги викладачів</a></paper-tab>
+        <paper-tab><a href="/schedule" class="nav-link">Розклад</a></paper-tab>
     </paper-tabs>
 </paper-material>
 

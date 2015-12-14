@@ -7,7 +7,7 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
 body {
-  background-color: #ececec;
+  background-color: #fafafa;
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
@@ -16,7 +16,7 @@ body {
     padding: 0;
     margin: 0; }
   body paper-material {
-    background-color: #ECEFF1; }
+    background-color: #f1f4f6; }
   body h2 {
     color: #DD2C00;
     font-family: "Roboto Regular", sans-serif; }
@@ -38,9 +38,11 @@ paper-toolbar img {
   width: 9%; }
 
 paper-material.nav {
+  background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 20px; }
 
 paper-material.news {
+  background-color: #FFF;
   padding: 20px;
   margin: 1% 10px;
   width: calc(99.99% * 1/1.5 - (30px - 30px * 1/1.5));
@@ -129,6 +131,7 @@ paper-material.video-gallery:after {
   paper-material.video-gallery google-youtube {
     padding: 1%; }
   paper-material.video-gallery paper-menu {
+    background-color: #FFF;
     overflow: scroll;
     height: 300px;
     padding-left: 6px;
@@ -202,3 +205,85 @@ section.about-page section .image-right {
   float: right;
   width: 45%;
   padding: 20px; }
+
+section.applicants h2 {
+  text-align: left;
+  margin-left: 10%; }
+
+section.applicants paper-material {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  section.applicants paper-material google-youtube {
+    height: 50%;
+    padding: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  section.applicants paper-material p {
+    padding-left: 10px;
+    font-size: 13pt;
+    text-align: left; }
+
+section.blogs {
+  *zoom: 1;
+  max-width: 97%;
+  margin-left: auto;
+  margin-right: auto; }
+
+section.blogs:before {
+  content: '';
+  display: table; }
+
+section.blogs:after {
+  content: '';
+  display: table;
+  clear: both; }
+  section.blogs paper-material {
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+    background-color: #f7f7f7; }
+    section.blogs paper-material img {
+      height: 200px;
+      width: 100%; }
+    section.blogs paper-material p {
+      font-size: 10pt; }
+
+section.schedule {
+  *zoom: 1;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+
+section.schedule:before {
+  content: '';
+  display: table; }
+
+section.schedule:after {
+  content: '';
+  display: table;
+  clear: both; }
+  section.schedule a:hover {
+    text-decoration: none;
+    background-color: #2095F1; }
+  section.schedule paper-material {
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+    background-color: #f7f7f7; }
+    section.schedule paper-material img {
+      height: 250px;
+      width: 100%; }
+    section.schedule paper-material p {
+      font-size: 10pt; }

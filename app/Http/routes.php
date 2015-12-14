@@ -23,3 +23,9 @@ Route::get('/about', function () {
 Route::get('/applicants', function () {
     return view('applicants');
 });
+Route::get('/blogs', function () {
+    return view('blogs');
+});
+Route::get('/schedule', function () {
+    return view('schedule');
+});
