@@ -6,6 +6,7 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
   background-color: #fafafa;
   font-family: "Roboto", sans-serif;
@@ -50,18 +51,18 @@ paper-material.news {
   display: -ms-flexbox;
   display: flex; }
 
-paper-material.news:nth-child(n) {
+paper-material.news:nth-child(n){
   float: left;
   margin-right: 30px;
   clear: none; }
 
-paper-material.news:last-child {
+paper-material.news:last-child{
   margin-right: 0; }
 
-paper-material.news:nth-child(1.5n) {
+paper-material.news:nth-child(1.5n){
   margin-right: 0; }
 
-paper-material.news:nth-child(1.5n + 1) {
+paper-material.news:nth-child(1.5n + 1){
   clear: left; }
   paper-material.news img {
     width: auto;
@@ -73,36 +74,36 @@ paper-material.news:nth-child(1.5n + 1) {
   background-color: rgba(55, 71, 79, 0.7);
   width: calc(99.99% * 1/1.083 - (30px - 30px * 1/1.083)); }
 
-.video-section:nth-child(n) {
+.video-section:nth-child(n){
   float: left;
   margin-right: 30px;
   clear: none; }
 
-.video-section:last-child {
+.video-section:last-child{
   margin-right: 0; }
 
-.video-section:nth-child(1.083n) {
+.video-section:nth-child(1.083n){
   margin-right: 0; }
 
-.video-section:nth-child(1.083n + 1) {
+.video-section:nth-child(1.083n + 1){
   clear: left; }
 
 .contacts-section {
   padding: 50px;
   width: calc(99.99% * 1/1.083 - (30px - 30px * 1/1.083)); }
 
-.contacts-section:nth-child(n) {
+.contacts-section:nth-child(n){
   float: left;
   margin-right: 30px;
   clear: none; }
 
-.contacts-section:last-child {
+.contacts-section:last-child{
   margin-right: 0; }
 
-.contacts-section:nth-child(1.083n) {
+.contacts-section:nth-child(1.083n){
   margin-right: 0; }
 
-.contacts-section:nth-child(1.083n + 1) {
+.contacts-section:nth-child(1.083n + 1){
   clear: left; }
 
 paper-material.video-gallery {
@@ -116,11 +117,11 @@ paper-material.video-gallery {
   display: -ms-flexbox;
   display: flex; }
 
-paper-material.video-gallery:before {
+paper-material.video-gallery:before{
   content: '';
   display: table; }
 
-paper-material.video-gallery:after {
+paper-material.video-gallery:after{
   content: '';
   display: table;
   clear: both; }
@@ -137,6 +138,7 @@ paper-material.video-gallery:after {
     padding-left: 6px;
     width: 100%; }
     paper-material.video-gallery paper-menu img {
+      float: left;
       width: 50%; }
 
 paper-material.contacts {
@@ -150,11 +152,11 @@ paper-material.contacts {
   display: -ms-flexbox;
   display: flex; }
 
-paper-material.contacts:before {
+paper-material.contacts:before{
   content: '';
   display: table; }
 
-paper-material.contacts:after {
+paper-material.contacts:after{
   content: '';
   display: table;
   clear: both; }
@@ -239,11 +241,11 @@ section.blogs {
   margin-left: auto;
   margin-right: auto; }
 
-section.blogs:before {
+section.blogs:before{
   content: '';
   display: table; }
 
-section.blogs:after {
+section.blogs:after{
   content: '';
   display: table;
   clear: both; }
@@ -258,6 +260,9 @@ section.blogs:after {
       width: 100%; }
     section.blogs paper-material p {
       font-size: 10pt; }
+  section.blogs a:hover {
+    text-decoration: none;
+    background-color: #2095F1; }
 
 section.schedule {
   *zoom: 1;
@@ -265,11 +270,11 @@ section.schedule {
   margin-left: auto;
   margin-right: auto; }
 
-section.schedule:before {
+section.schedule:before{
   content: '';
   display: table; }
 
-section.schedule:after {
+section.schedule:after{
   content: '';
   display: table;
   clear: both; }
