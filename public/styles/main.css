@@ -162,6 +162,43 @@ paper-material.contacts:after {
     width: 50%;
     display: block; }
 
-paper-card {
-  width: 320px;
-  color: red; }
+.people-card {
+  margin: 10px;
+  width: 250px;
+  background-color: #FFFFFF;
+  padding: 10px; }
+  .people-card img {
+    width: 100%; }
+  .people-card h4 {
+    color: rgba(177, 41, 0, 0.73);
+    text-align: center; }
+
+section.about-page h2 {
+  margin-left: 10%; }
+
+section.about-page section div {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+section.about-page section paper-material {
+  text-align: left;
+  padding: 40px;
+  width: 90%;
+  background-color: #FFFFFF; }
+
+section.about-page section .image-left {
+  float: left;
+  width: 45%;
+  padding: 20px; }
+
+section.about-page section .image-right {
+  float: right;
+  width: 45%;
+  padding: 20px; }

@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/news', function () {
+    return view('news');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/applicants', function () {
+    return view('applicants');
+});
