@@ -69,13 +69,13 @@
                     autoplay="0">
             </google-youtube>
             <paper-menu>
-                <paper-item>Шляхами Соломіїної пісні<img src="images/tb%20(1).jpg"></paper-item>
-                <paper-item>Благодійний проект «СКРИНЬКА ДОБРИХ СПРАВ»<img src="images/tb%20(1).jpg"></paper-item>
-                <paper-item>Фільм про професію ОПР<img src="images/tb%20(1).jpg"></paper-item>
-                <paper-item>Історія училища<img src="images/tb%20(1).jpg"></paper-item>
-                <paper-item>Мультик про професії училища<img src="images/tb%20(1).jpg"></paper-item>
-                <paper-item>День пам'яті і примирення<img src="images/tb%20(1).jpg"></paper-item>
-                <paper-item>Міфи про училище<img src="images/tb%20(1).jpg"></paper-item>
+                <paper-item><img src="images/tb%20(1).jpg">Шляхами Соломіїної пісні</paper-item>
+                <paper-item><img src="images/tb%20(1).jpg">Благодійний проект «СКРИНЬКА ДОБРИХ СПРАВ»</paper-item>
+                <paper-item><img src="images/tb%20(1).jpg">Фільм про професію ОПР</paper-item>
+                <paper-item><img src="images/tb%20(1).jpg">Історія училища</paper-item>
+                <paper-item><img src="images/tb%20(1).jpg">Мультик про професії училища</paper-item>
+                <paper-item><img src="images/tb%20(1).jpg">День пам'яті і примирення</paper-item>
+                <paper-item><img src="images/tb%20(1).jpg">Міфи про училище</paper-item>
             </paper-menu>
 
         </paper-material>

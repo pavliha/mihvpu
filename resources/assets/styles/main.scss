@@ -7,6 +7,7 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
 //@import "/node_modules/normalize.css/normalize.css";
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
   background-color: #fafafa;
   font-family: "Roboto", sans-serif;
@@ -106,6 +107,7 @@ paper-material.video-gallery {
     width: 100%;
 
     img {
+      float: left;
       width: 50%;
     }
   }
@@ -216,6 +218,10 @@ section.blogs{
 
       font-size: 10pt;
     }
+  }
+  a:hover{
+    text-decoration: none;
+    background-color: #2095F1 ;
   }
 }
 
